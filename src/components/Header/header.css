@@ -1,0 +1,54 @@
+header {
+  background: linear-gradient(to left,rgb(171, 50, 2),rgb(255, 73, 1));
+  color: black;
+  border-bottom: 2px solid rgb(51, 72, 51);
+
+  
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+}
+
+nav{
+    display:flex;
+    gap:20%;
+    align-items: left;
+}
+
+ nav a {
+
+  font-size: 24px;
+  color: black;
+  padding: 5px 10px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  font-size: 20px;
+  color: black;
+  padding: 5px 5px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgba(151, 43, 1, 0.374);
+}
+
+/* Header barra de navegacion+logo
+ */
+.imgLogo {
+  height: 15vh;
+  width: auto;
+  margin-right: 0;
+}
+
+.divLogo {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}

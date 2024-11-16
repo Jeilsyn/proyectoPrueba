@@ -1,0 +1,25 @@
+body {
+  margin: 0 ;
+  font-family: Arial;
+}
+
+h1 {
+  color:black;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(60, 2, 2);
+  text-align: center;
+}
+
+
+/* Secciones css */
+
+.secciones{
+  padding: 5px 15px 5px 15px;
+  margin:5% 25% 5% 25%;
+  border: rgb(111, 33, 2) solid 2px;
+}
+
+
